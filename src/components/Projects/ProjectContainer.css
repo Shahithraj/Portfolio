@@ -1,0 +1,58 @@
+.project {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project_container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project_box {
+  width: 280px;
+  height: 250px;
+  border: 2px solid white;
+  position: relative;
+}
+
+.project_box h2 {
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.project_box p {
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.project_box:nth-child(1) a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+.project_box:nth-child(2) a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  position: absolute;
+  top: 130px;
+}
+
+.project_box a:hover {
+  text-decoration: underline;
+}
+
+.project_box .frame {
+  font-size: 16px;
+}
+
+.project_box:nth-child(2) .frame {
+  position: absolute;
+  top: 170px;
+}
