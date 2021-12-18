@@ -56,3 +56,9 @@
   position: absolute;
   top: 170px;
 }
+
+@media (max-width:660px){
+  .project_container{
+    flex-direction: column;
+  }
+}

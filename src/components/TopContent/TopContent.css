@@ -5,7 +5,7 @@
   position: relative;
 }
 .firstpage {
-  background-image: linear-gradient(
+  background-color: linear-gradient(
     to right top,
     #051937,
     #1d223e,
@@ -53,4 +53,10 @@
   font-weight: 600;
   color: #f64c08;
   background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .topcontent-container {
+    left: 80px;
+  }
 }

@@ -34,3 +34,9 @@
 .contact_icons button {
   color: white;
 }
+
+@media (max-width: 660px) {
+  .contact_container {
+    width: 300px;
+  }
+}

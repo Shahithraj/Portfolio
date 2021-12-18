@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "./Header.css";
 
 const Header = () => {
+  const [navbar, setNavbar] = useState(false);
+
+  const navbarClick = () => {
+    setNavbar(!navbar);
+  };
+
   return (
     <div className="header">
       <div className="header_left">
-        <h1>Developer</h1>
+        <h1>Portfolio</h1>
       </div>
-      <div className="header_right">
+      <div className="toggle-btn" onClick={navbarClick}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
+      <div className={navbar ? "header_show" : "header_right"}>
         <Link to="about" smooth={true} duration={500}>
           <h4>About Me</h4>
         </Link>
