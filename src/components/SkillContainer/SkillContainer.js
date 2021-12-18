@@ -8,7 +8,7 @@ const SkillContainer = () => {
     <div>
       <Element id="skills" className="skillContainer">
         <div className="image">
-          <img src="https://boagworld.com/wp-content/uploads/2013/09/mailchimp-515x343.jpg" />
+          <img src="https://boagworld.com/wp-content/uploads/2013/09/mailchimp-515x343.jpg" alt="sample"/>
         </div>
         <div className="skillContainer_text">
           <h2>SKILLSET</h2>
